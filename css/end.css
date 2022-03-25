@@ -1,0 +1,118 @@
+.why-I-like-you{
+    background: rgb(241, 241, 243);
+    margin: 10px 0px;
+}
+
+.why-I-like-you-wrapper{
+    max-width: 1920px;
+    min-width: auto;
+    margin: auto;
+    background: rgb(251, 251, 253);
+    padding: 20px;
+}
+
+.why-I-like-you-container{
+    max-width: 900px;
+    min-width: auto;
+    margin: auto;
+    color: rgb(48, 48, 48);
+}
+
+/* I wanna tell you  */
+[data-wanna-tell] .wanna-tell{
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    font-family: 'Manrope';
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* you think */
+[data-you-think] .you-think{
+    padding: 20px 0px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* why _ */
+[data-why-I]{
+    padding-bottom: 20px;
+}
+[data-why-I] .why-I{
+    padding: 0px 0px 5px 0px;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.why-I-reasons, .why-I-reason{
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+[data-pretty-rare="pretty-rare"]{
+    padding-bottom:10px ;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+[data-I-lost="I-lost"]{
+    padding-bottom:20px ;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* LAST SECTION */
+/* .last-section{
+    kground
+} */
+.last-wrapper{
+    max-width: 1920px;
+    min-width: auto;
+    margin: auto;
+    background: url('../resource/img/enjoy.jpg');
+    background-size: cover;
+    /* height: 700px; */
+    background-position: top;
+    background-repeat: no-repeat;
+    padding:80px 40px 40px 40px;
+    /* box-shadow: 0px 20px 10px rgb(112, 54, 109); */
+}
+.last-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color:rgb(214, 206, 224);
+    text-align: center;
+}
+
+.last-text .last{
+    font-family: 'Palmer';
+    font-size: clamp(50px, 17vw, 100px);
+    text-shadow: 4px 4px 10px rgb(56, 24, 53);
+}
+
+/* Footer */
+/* .footer{
+    margin: 5px 0px 0px 0px;
+} */
+
+.footer-wrapper{
+    -webkit-backdrop-filter: blur(60px);
+    backdrop-filter: blur(50px);
+    background:rgba(72, 8, 88, 0.74);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-para{
+    font-size: 17px;
+    font-weight: 500;
+    word-spacing: 2px;
+    /* letter-spacing: 1px; */
+    color: rgb(232, 228, 236);
+}

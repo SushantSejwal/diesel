@@ -1,0 +1,141 @@
+/* <!-- So what special on 15 April --> */
+
+.entry {
+    background-color: rgb(253, 243, 234);
+}
+
+.intro-wrapper {
+    max-width: 1920px;
+    background: url('../resource/img/back-land.jpg');
+    padding: 80px 20px 130px 20px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    height: 100%;
+}
+
+.so-what-special {
+    position: relative;
+    top: 20px;
+}
+
+.today-is, ._15-april, .so, .what-special {
+    font-size: clamp(20px, 10vw, 65px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    word-spacing: 6px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(49, 49, 49);
+    text-shadow: 5px 5px 10px rgb(138, 127, 117);
+}
+
+
+
+
+
+/* <--####    Birthday Section    ####--> */
+
+.birthday-section{
+    background: rgb(10, 1, 37);
+}
+
+.birthday-section-wrapper {
+    max-width: 1920px;
+    margin: auto;
+    background: url('../resource/img/birthday/back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* birthday decoration */
+.birthday-decoration-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+.birthday-decoration{
+    text-align: center;
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
+}
+.birthday-decoration.intersected{
+    opacity: 1;
+}
+
+.birthday-decoration .decoration-img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* Birthday text and balloons */
+
+/* text */
+
+.birthday-text {
+    color: white;
+    padding: 50px 30px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
+}
+.birthday-text.intersected{
+    opacity: 1;
+}
+
+.birthday-text-hp-birth, .birthday-text-dibya {
+    font-family: 'Monarda';
+    /* font-family: 'Palmer'; */
+    font-family: 'Dancing Script';
+    font-size: clamp(20px, 13vw, 100px);
+    /* padding: 5px; */
+    word-spacing: 5px;
+    text-shadow: 4px 4px 5px rgb(255, 33, 84), -2px -2px 5px rgb(255, 33, 84), 2px 2px 30px rgb(255, 33, 84);
+}
+
+.birthday-text-dibya {
+    text-shadow: 4px 4px 5px rgb(248, 143, 255), -2px -2px 5px rgb(248, 143, 255), 0px 0px 10px rgb(248, 143, 255);
+}
+
+/* balloons */
+.birthday-balloon-wrapper{
+    padding: 20px;
+}
+
+.birthday-balloon-img{
+    width: 200px;
+}
+
+
+/* Cake and confetti */
+.cake-with-confetti-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width:500px; 
+    max-width:500px; 
+    width:auto; 
+    margin: auto;
+}
+.confetti{
+opacity: 0;
+transition: all 0.9s ease-in-out;
+}
+.confetti.intersected{
+opacity: 1;
+}
+.confetti-img{
+    width: 300px;
+    padding: 10px 20px 100px 20px;
+    max-width: 100%;
+    min-width: auto;
+}
