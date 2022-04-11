@@ -26,7 +26,10 @@
     top: 20px;
 }
 
-.today-is, ._15-april, .so, .what-special {
+.today-is,
+._15-april,
+.so,
+.what-special {
     font-size: clamp(20px, 10vw, 65px);
     font-weight: 800;
     letter-spacing: -2px;
@@ -43,9 +46,9 @@
 
 
 
-/* <--####    Birthday Section    ####--> */
+/* <--#### Birthday Section ####--> */
 
-.birthday-section{
+.birthday-section {
     background: rgb(10, 1, 37);
 }
 
@@ -56,6 +59,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 60px;
 }
 
 /* birthday decoration */
@@ -63,12 +67,14 @@
     width: 100%;
     overflow: hidden;
 }
-.birthday-decoration{
+
+.birthday-decoration {
     text-align: center;
     opacity: 0;
     transition: all 0.9s ease-in-out;
 }
-.birthday-decoration.intersected{
+
+.birthday-decoration.intersected {
     opacity: 1;
 }
 
@@ -89,18 +95,21 @@
     opacity: 0;
     transition: all 0.9s ease-in-out;
 }
-.birthday-text.intersected{
+
+.birthday-text.intersected {
     opacity: 1;
 }
 
-.birthday-text-hp-birth, .birthday-text-dibya {
-    font-family: 'Monarda';
+.birthday-text-hp-birth,
+.birthday-text-dibya {
+    /* font-family: 'Monarda'; */
     /* font-family: 'Palmer'; */
     font-family: 'Dancing Script';
     font-size: clamp(20px, 13vw, 100px);
     /* padding: 5px; */
     word-spacing: 5px;
     text-shadow: 4px 4px 5px rgb(255, 33, 84), -2px -2px 5px rgb(255, 33, 84), 2px 2px 30px rgb(255, 33, 84);
+    font-weight: 700;
 }
 
 .birthday-text-dibya {
@@ -108,32 +117,35 @@
 }
 
 /* balloons */
-.birthday-balloon-wrapper{
+.birthday-balloon-wrapper {
     padding: 20px;
 }
 
-.birthday-balloon-img{
+.birthday-balloon-img {
     width: 200px;
 }
 
 
 /* Cake and confetti */
-.cake-with-confetti-wrapper{
+.cake-with-confetti-wrapper {
     display: flex;
     justify-content: space-evenly;
-    width:500px; 
-    max-width:500px; 
-    width:auto; 
+    width: 500px;
+    max-width: 500px;
+    width: auto;
     margin: auto;
 }
-.confetti{
-opacity: 0;
-transition: all 0.9s ease-in-out;
+
+.confetti {
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
 }
-.confetti.intersected{
-opacity: 1;
+
+.confetti.intersected {
+    opacity: 1;
 }
-.confetti-img{
+
+.confetti-img {
     width: 300px;
     padding: 10px 20px 100px 20px;
     max-width: 100%;

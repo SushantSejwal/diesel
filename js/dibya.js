@@ -62,14 +62,14 @@ window.addEventListener('scroll', () => {
         hamburger_wrapper.style.height = px;
         logo_wrapper.style.height = px;
 
-        if (scrollY < 30 * 5) {
+        if (scrollY < 10 * 5) {
             logo_anchor.forEach((anchor) =>{
-                size =`calc(80px - ${scrollY / 5}px)`;
+                size =`calc(60px - ${scrollY / 5}px)`;
                 anchor.style.fontSize = size;
             })
         }
     }
-    else if (scrollY >= (30 * 5)){
+    else if (scrollY >= (10 * 5)){
         logo_anchor.forEach((anchor) =>{
             anchor.style.fontSize = '50px';
         })

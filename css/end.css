@@ -1,6 +1,12 @@
+@import url('dibya-sans-serif/sushant.css');
+
 .why-I-like-you{
-    background: rgb(241, 241, 243);
+    background: rgb(255, 255, 255);
     margin: 10px 0px;
+}
+
+.why-I-like-you b{
+    font-weight: 800;
 }
 
 .why-I-like-you-wrapper{
@@ -8,7 +14,7 @@
     min-width: auto;
     margin: auto;
     background: rgb(251, 251, 253);
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
 }
 
 .why-I-like-you-container{
@@ -21,47 +27,47 @@
 /* I wanna tell you  */
 [data-wanna-tell] .wanna-tell{
     text-align: center;
-    padding: 10px 10px 5px 10px;
-    font-family: 'Manrope';
-    font-size: 25px;
-    font-weight: 600;
+    padding: 10px 20px 20px 20px;
+    font-family: 'Sushant';
+    font-size: 35px;
+    font-weight: 800;
 }
 
 /* you think */
 [data-you-think] .you-think{
-    padding: 20px 0px;
-    font-family: 'Manrope';
-    font-size: 18px;
-    font-weight: 500;
+    padding: 20px 10px 25px 10px;
+    font-family: 'Sushant';
+    font-size: 25px;
+    font-weight: 600;
 }
 
 /* why _ */
 [data-why-I]{
-    padding-bottom: 20px;
+    padding: 20px 0px 40px 0px;
 }
 [data-why-I] .why-I{
     padding: 0px 0px 5px 0px;
-    font-family: 'Manrope';
-    font-size: 18px;
-    font-weight: 500;
+    font-family: 'Sushant';
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .why-I-reasons, .why-I-reason{
-    padding: 0px 10px;
-    font-size: 16px;
-    font-weight: 500;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 [data-pretty-rare="pretty-rare"]{
     padding-bottom:10px ;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 [data-I-lost="I-lost"]{
     padding-bottom:20px ;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 
@@ -92,8 +98,9 @@
 
 .last-text .last{
     font-family: 'Palmer';
-    font-size: clamp(50px, 17vw, 100px);
+    font-size: clamp(50px, 20vw, 100px);
     text-shadow: 4px 4px 10px rgb(56, 24, 53);
+    font-weight: 600;
 }
 
 /* Footer */
