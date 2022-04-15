@@ -123,3 +123,12 @@
     /* letter-spacing: 1px; */
     color: rgb(232, 228, 236);
 }
+
+.footer-para a{
+    font-size: 18px;
+    font-weight: 700;
+    word-spacing: 2px;
+    /* letter-spacing: 1px; */
+    color: rgb(232, 228, 236);
+    text-decoration: none;
+}
